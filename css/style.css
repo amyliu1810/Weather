@@ -1,0 +1,93 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    font-size: 18px;
+    background: #E7F5F1;
+}
+
+.container {
+    width: 100%;
+    background-color: antiquewhite;
+    background: linear-gradient(to bottom, #BBE2F3, #E7F5F1);
+}
+
+.tabs {
+    
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.tab {
+    border: none;
+    background-color: #F6F4EB;
+    cursor: pointer;
+    padding: 15px 40px;
+    margin: 0 10px;
+    color: #5985b1;
+    box-shadow: 5px 0px 4px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.tab:hover {
+    background-color: #F3712D;
+    color: #fff;
+
+}
+
+.locationName {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* 藏資料 */
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+
+    width: 230px;
+    height: 320px;
+    background-color: #F6F4EB;
+    color: #5985b1;
+    margin: 20px;
+    padding: 15px 25px;
+    line-height: 30px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.state {
+    width: 100%;
+}
+.img {
+    width: 130px;
+    height: 130px;
+}
+
+.contents {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.active {
+    background-color: #00BCD4;
+    color: white;
+}
+.showup {
+    display: flex;
+    justify-content: center;
+}
