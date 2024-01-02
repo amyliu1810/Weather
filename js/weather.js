@@ -6,7 +6,7 @@ const tabs = document.querySelectorAll('.tab');
 // console.log(tabs);
 
 // 取資料
-fetch('https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-786023BA-16EC-4367-9CA7-3BA6D210B743')
+fetch('https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=CWB-786023BA-16EC-4367-9CA7-3BA6D210B743')
     .then((response) => { // 對方回覆給我
         return response.json(); // 回傳Json格式的資料  response.json()
     })
