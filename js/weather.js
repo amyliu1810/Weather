@@ -49,8 +49,6 @@ fetch('https://opendata.cwa.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorizati
                 img_path = "./weather-img/陰短暫雨.svg"
             }
 
-
-
             else {
                 img_path = `https://www.cwb.gov.tw/V8/assets/img/weather_icons/weathers/svg_icon/day/${stateNum}.svg`
             }
